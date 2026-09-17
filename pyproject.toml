@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grok_fleet"
+version = "0.1.0"
+description = "Grok Quality Fleet (GQF) — force every model to do real work, prove it, get reviewed, and clear a quality bar via 5 gates. Pure core, stdlib only."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["grok_fleet"]
